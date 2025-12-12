@@ -1,0 +1,35 @@
+# OCSP certificate validation (revocation checks)
+0.0.0.0 ocsp2.apple.com
+
+# Software update catalog (blocks update checks)
+0.0.0.0 mesu.apple.com
+
+# Certificate validity verification endpoint
+0.0.0.0 valid.apple.com
+
+# Certificate Revocation List distribution
+0.0.0.0 crl.apple.com
+
+# General Apple certificate provisioning/lookup
+0.0.0.0 certs.apple.com
+
+# App Attest service (app integrity verification)
+0.0.0.0 appattest.apple.com
+
+# Volume Purchase Program (MDM / enterprise apps)
+0.0.0.0 vpp.itunes.apple.com
+
+# Siri / HomePod voice service endpoint
+0.0.0.0 guzzoni-apple-com.v.aaplimg.com
+
+# Firmware / update metadata (OTA-related)
+0.0.0.0 gdmf.apple.com
+
+# Apple Business Manager / device management
+0.0.0.0 axm-app.apple.com
+
+# Enterprise / device enrollment service (ESS cohort)
+0.0.0.0 comm-cohort.ess.apple.com
+
+# Primary ESS enrollment/communication host
+0.0.0.0 comm-main.ess.apple.com
